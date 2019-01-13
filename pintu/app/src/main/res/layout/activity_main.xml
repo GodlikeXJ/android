@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gl"
+
+        >
+    </GridLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="重置"
+        android:id="@+id/reset"
+        />
+
+      <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="换张图片"
+        android:id="@+id/changePicture"
+        />
+
+      <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="更换难度"
+        android:id="@+id/upto"
+        />
+      </LinearLayout>
+
+
+      <ImageView
+        android:layout_margin="40px"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:id="@+id/fulliv"
+          />
+
+      </LinearLayout>
+
+
+</LinearLayout>
